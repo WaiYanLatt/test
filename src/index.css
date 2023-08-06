@@ -1,0 +1,243 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.carousel-indicators [data-bs-target] {
+  width:10px!important;
+  height:10px!important;
+  border-radius: 100%;
+}
+.bgor {
+  background-image: url(./assets/img/BGHomepage/BGOrange.png);
+  height: 660px;
+  object-fit: cover;
+}
+.bgblue {
+  background-image: url(./assets/img/BGHomepage/BGBlue.png);
+  height: 570px;
+  object-fit: cover;
+}
+.number{
+  width: 25px;
+  height:25px;
+  background-color: white;
+  border-radius: 100%;
+}
+.number1{
+  width: 25px;
+  height:25px;
+  color:white;
+  background-color: #ea580c;
+  border-radius: 100%;
+}
+.bg-light1{
+  background-color: #d1d5db!important;
+}
+.bgye {
+  background-image: url(./assets/img/BGHomepage/BGYellow.png);
+  height: 480px;
+  object-fit: cover;
+}
+.bgge {
+  background-image: url(./assets/img/BGHomepage/BGGreen.png);
+  height: 446px;
+  object-fit: cover;
+}
+.bggrblue {
+  background-image: url(./assets/img/BGHomepage/BGGradienBlue.png);
+  height: 270px;
+  object-fit: cover;
+}
+.bggrpink {
+  background-image: url(./assets/img/BGHomepage/BGGradientPink.png);
+  height: 270px;
+  object-fit: cover;
+}
+
+.font-dot {
+  font-family: "Raleway Dots", cursive;
+}
+
+.w-c {
+  width: 60%;
+}
+.bg-glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+}
+.topsp {
+  top: 47%;
+  left: 19.4%;
+  z-index: 10;
+}
+.bggbblue {
+  background-image: url(./assets/img/bluebg.png);
+  height: 400px;
+  object-fit: cover;
+}
+.bgwhite {
+  background-image: url(./assets/img/unnamed.png);
+  height: 660px;
+  object-fit: cover;
+}
+.list-style {
+  list-style-type: none !important;
+}
+.hidden {
+  display: none !important;
+}
+.text-orange {
+  color: #ea580c;
+}
+.bg-orange {
+  background-color: #ea580c!important;
+}
+.w-37 {
+  width: 25% !important;
+}
+.list-group-item:hover {
+  background-color: #ea580c !important;
+}
+.fs-8 {
+  font-size: 40px;
+}
+.w-70 {
+  width: 80% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.fs-9 {
+  font-size: 12px;
+}
+.display0 {
+  display: none;
+}
+.w-w {
+  width: 75%;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-30 {
+  z-index: 30;
+}
+.topnav{
+  top: 8%;
+}
+.border-orange{
+  border-color:#ea580c!important;
+}
+.w-album{
+  width:30%;
+  height: 100px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .d-nonetab {
+    display: none;
+  }
+  .d-showtab {
+    display: block;
+  }
+  .w-input {
+    width: 390px;
+  }
+  .bgor {
+    background-image: url(./assets/img/BGHomepage/BGOrange.png);
+    height: 550px;
+    object-fit: cover;
+  }
+  .topsp {
+    top: 46%;
+    left: 22%;
+    z-index: 10;
+  }
+  .bgblue {
+    background-image: url(./assets/img/BGHomepage/BGBlue.png);
+    height: 400px;
+    object-fit: cover;
+  }
+  .bgge {
+    background-image: url(./assets/img/BGHomepage/BGGreen.png);
+    height: 350px;
+    object-fit: cover;
+  }
+  .topnav{
+    top: 5%;
+  }
+  .bgwhite {
+    background-image: url(./assets/img/unnamed.png);
+    height: 550px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 456px) {
+  .d-no {
+    display: none;
+  }
+  .w-37 {
+    width: 37% !important;
+  }
+  .d-sho {
+    display: block;
+  }
+  .w-c {
+    width: 90%;
+  }
+  .w-w {
+    width: 100%;
+  }
+  .topsp {
+    top: 40%;
+    left: 5%;
+    z-index: 10;
+  }
+  .fs-8 {
+    font-size: 20px;
+  }
+  .bgge {
+    background-image: url(./assets/img/BGHomepage/BGGreen.png);
+    height: 580px;
+    object-fit: cover;
+  }
+  .w-input {
+    width: 250px;
+  }
+  .bgor {
+    background-image: url(./assets/img/BGHomepage/BGOrange.png);
+    height: 660px;
+    object-fit: cover;
+  }
+  .bgblue {
+    background-image: url(./assets/img/BGHomepage/BGBlue.png);
+    height: 550px;
+    object-fit: cover;
+  }
+  .topnav{
+    top: 7%;
+  }
+  .bgwhite {
+    background-image: url(./assets/img/unnamed.png);
+    height: 660px;
+    object-fit: cover;
+  }
+}
